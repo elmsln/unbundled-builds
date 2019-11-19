@@ -197,7 +197,7 @@
     "through2": "3.0.1",
     "through2-filter": "3.0.0",
     "json5": "2.1.0",
-    "acorn": "7.1.0"
+    "acorn": "5.7.3"
   },
   "devDependencies": {
     "gulp": "4.0.2",
