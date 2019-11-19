@@ -209,7 +209,7 @@
   "scripts": {
     "lint": "prettier --check 'dist/**/*.js' '*.{html,js,php,yml}'",
     "format": "prettier --write 'dist/**/*.js' '*.{html,js,php,yml}'",
-    "build": "polymer build && yarn run terser",
+    "build": "rm -rf build && polymer build && yarn run terser",
     "terser": "gulp",
     "start": "yarn run build"
   }

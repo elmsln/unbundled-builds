@@ -1,6 +1,7 @@
 {
   "entrypoint": "dist/build.html",
   "extraDependencies": [
+    "dist/*",
     "node_modules/@lrnwebcomponents/*/*.js",
     "node_modules/@lrnwebcomponents/*/lib/*",
     "node_modules/@lrnwebcomponents/*/lib/*/*.js",
