@@ -1,8 +1,6 @@
 <?php
 /**
  * @file
- * <%= name %>
- * <%= description %>
  *
  * Variables:
  * - $css: An array of CSS files for the current page.

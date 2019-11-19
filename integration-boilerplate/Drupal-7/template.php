@@ -1,5 +1,5 @@
 <?php
 /**
  * @file
- * Functions to support theming in the <%= name %> theme.
+ * Functions to support theming in the theme.
  */

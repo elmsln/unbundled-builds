@@ -1,9 +1,7 @@
-ABOUT <%= name %>
+ABOUT themeName
 ------------
 
-<%= name %> is a generated boilerplate from the Web Component Factory (wcfactory) management system
-
-<%= description %>
+This is a generated boilerplate from the Web Component Factory (wcfactory) management system
 
 ABOUT BACKDROP THEMING
 --------------------

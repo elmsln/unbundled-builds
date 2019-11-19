@@ -1,7 +1,7 @@
-name: <%= name %>
+name: themeName
 type: theme
 base theme: classy
-description: '<%= description %>'
+description: 'your theme'
 package: Web components
 version: VERSION
 core: 8.x
