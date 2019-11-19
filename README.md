@@ -26,3 +26,13 @@ We have several boilerplate integrations listed in the `integration-boilerplate`
 - There's a "cdn" / section at the bottom that references where it lives on the server / domain. If this changes in your deployed environment then you'll want to modify these.
 - Effectively these are all modifications to the `integration-boilerplate/Static` integration methodology so fork from there as you like.
   - If you'd like to see other integrations, just ask and we'll try
+
+### Note on CDNs
+We recommend taking the build directory and throwing it on a legit CDN or centralized domain to share the assets across domains. In those instances, the `cdn` variable / direct references in the `script type="module"` piece at the bottom of these integration examples will need to point to the domain.
+
+## Examples
+View source on any of these domains in order to see the implementation methodology in action:
+- [HAXTheWeb](https://haxtheweb.org)
+- [WCFactory documentation](https://wcfactory.js.org)
+- [Drupal @ Penn State](https://drupal.psu.edu)
+- [STEM Research ethics](https://stem-researchethics.psu.edu/ru004)
