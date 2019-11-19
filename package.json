@@ -203,14 +203,10 @@
     "gulp": "4.0.2",
     "gulp-terser": "1.2.0",
     "polymer-build": "3.1.4",
-    "polymer-cli": "1.9.11",
-    "prettier": "1.19.1"
+    "polymer-cli": "1.9.11"
   },
   "scripts": {
-    "lint": "prettier --check 'dist/**/*.js' '*.{html,js,php,yml}'",
-    "format": "prettier --write 'dist/**/*.js' '*.{html,js,php,yml}'",
-    "build": "rm -rf build && polymer build && yarn run terser",
-    "terser": "gulp",
+    "build": "rm -rf build && polymer build && gulp",
     "start": "yarn run build"
   }
 }
